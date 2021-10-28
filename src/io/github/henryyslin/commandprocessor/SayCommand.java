@@ -1,6 +1,7 @@
 package io.github.henryyslin.commandprocessor;
 
 public class SayCommand extends Command {
+
     public SayCommand(CommandProcessor processor) {
         super(processor, "say", "say <text>");
     }

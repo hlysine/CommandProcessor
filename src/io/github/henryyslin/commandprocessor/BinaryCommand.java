@@ -1,6 +1,7 @@
 package io.github.henryyslin.commandprocessor;
 
 public abstract class BinaryCommand extends Command {
+
     protected BinaryCommand(CommandProcessor processor, String name, String usage) {
         super(processor, name, usage);
     }

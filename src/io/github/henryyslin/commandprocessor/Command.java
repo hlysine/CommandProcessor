@@ -1,6 +1,7 @@
 package io.github.henryyslin.commandprocessor;
 
 public abstract class Command {
+
     private final String name;
     private final String usage;
     private final CommandProcessor processor;

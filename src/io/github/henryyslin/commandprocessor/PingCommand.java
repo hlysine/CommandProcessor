@@ -1,6 +1,7 @@
 package io.github.henryyslin.commandprocessor;
 
 public class PingCommand extends Command {
+
     public PingCommand(CommandProcessor processor) {
         super(processor, "ping", "ping");
     }

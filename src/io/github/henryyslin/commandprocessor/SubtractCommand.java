@@ -1,6 +1,7 @@
 package io.github.henryyslin.commandprocessor;
 
 public class SubtractCommand extends ArithmeticCommand {
+
     public SubtractCommand(CommandProcessor processor) {
         super(processor, "subtract");
     }

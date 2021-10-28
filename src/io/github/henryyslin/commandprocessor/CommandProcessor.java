@@ -5,6 +5,7 @@ import java.util.Optional;
 import java.util.Scanner;
 
 public class CommandProcessor {
+
     private final List<Command> commands = List.of(
             new PingCommand(this),
             new SayCommand(this),

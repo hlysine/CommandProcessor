@@ -1,6 +1,7 @@
 package io.github.henryyslin.commandprocessor;
 
 public class QuitCommand extends Command {
+
     public QuitCommand(CommandProcessor processor) {
         super(processor, "quit", "quit");
     }

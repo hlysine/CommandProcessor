@@ -1,6 +1,7 @@
 package io.github.henryyslin.commandprocessor;
 
 public abstract class ArithmeticCommand extends BinaryCommand {
+
     protected ArithmeticCommand(CommandProcessor processor, String name) {
         super(processor, name, name + " <decimal1> <decimal2>");
     }
